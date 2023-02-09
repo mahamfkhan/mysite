@@ -28,18 +28,18 @@ html, body{
    
 div {
   padding: 40px;
-  width:50%;
+  width:70%;
 }  
    
 h1 {
   color: #55dabe;
   font-family: 'Roboto Mono', Roboto, monospace;
-  font-size: 20px;
+  font-size: 2.4vw;
   font-weight: 200;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  line-height: 50px;
+  line-height: 30px;
   /* animation-delay: 1s; */
   /* font-weight: 400; */
 
@@ -52,10 +52,10 @@ h2 {
   animation: fadeInAnimation ease 6s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  line-height: .5;
+  line-height: .4;
 
   /* animation-delay: 3s; */
-  font-size: 45px;
+  font-size: 5vw;
   /* font-weight: 600; */
 }
 
@@ -64,7 +64,7 @@ h3 {
   /* color: #1c00ff; */
   font-family: 'Inter', sans-serif;
   font-weight: 600;  
-  font-size: 45px;
+  font-size: 5vw;
   line-height: 0;
 
 
