@@ -122,8 +122,8 @@ a {
 }
 
 .rotated-text {
-  bottom: 8.5vw;
-  right: 6vw; 
+  bottom: 12%;
+  right: 6.4vw; 
   transform: rotate(90deg);
   transform-origin: bottom right;
   /* padding-bottom: 15%;  */
