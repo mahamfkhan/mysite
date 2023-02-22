@@ -44,6 +44,13 @@ h3 {
 
 }
 
+.spacer {
+  height:25vw;
+  margin-top:40px;
+  /* background: white; */
+}
+
+
 html, body{
   background-color: #000000;
 }
@@ -141,3 +148,23 @@ a {
   right: 5.5vw;
   bottom: 0;
 }
+
+.tile {
+  /* height:400px;
+  margin-top:40px; */
+  /* background:grey; */
+  /* transition-delay: 2s; */
+  transition: 3s;
+  opacity: 0;
+  filter: grayscale(1);
+}
+.bottom-right.inView {
+  opacity: 1;
+}
+.inView {
+  opacity: 1;
+}
+section {
+  padding:20px;
+}
+
