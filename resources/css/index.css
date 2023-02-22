@@ -203,9 +203,10 @@ a {
 }
 
 .main_div, .about_me {
+  display:block;
   height: 100%;
   padding:8vw; 
   padding-right: 20vw;
-  padding-top: 6vw;
+  /* padding-top: 6vw; */
 }
 
