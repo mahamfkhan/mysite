@@ -44,21 +44,8 @@ h3 {
 
 }
 
-.spacer {
-  height:25vw;
-  margin-top:40px;
-  /* background: white; */
-}
-
-
 html, body{
   background-color: #000000;
-}
-
-body {
-  padding:8vw;
-  padding-right: 20vw;
-  padding-top: 6vw;
 }
    
 p, 
@@ -76,9 +63,6 @@ a {
   color: rgb(100,255,218);
 }
 
-.p4 {
-  padding:50%
-}
 
 .teal-button {
   font-family: 'Roboto Mono', monospace;
@@ -101,6 +85,7 @@ a {
   justify-content: center;
   padding-left: 1vw;
 }
+
 
 .icon-buttons a {
   display: block;
@@ -150,10 +135,6 @@ a {
 }
 
 .tile {
-  /* height:400px;
-  margin-top:40px; */
-  /* background:grey; */
-  /* transition-delay: 2s; */
   transition: 3s;
   opacity: 0;
   filter: grayscale(1);
@@ -161,10 +142,15 @@ a {
 .bottom-right.inView {
   opacity: 1;
 }
+
 .inView {
   opacity: 1;
 }
-section {
-  padding:20px;
+
+.main_div, .about_me {
+  height: 100%;
+  padding:8vw; 
+  padding-right: 20vw;
+  padding-top: 6vw;
 }
 
