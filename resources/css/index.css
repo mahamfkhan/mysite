@@ -10,7 +10,7 @@
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1501px) {
   p, 
   li {
     font-size: 2vw;
@@ -22,10 +22,10 @@
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1500px) {
   p, 
   li {
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: #8892b0;
     font-weight: 200;  
     font-family: 'Inter', sans-serif;
